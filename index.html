@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Hello, world!</title>
+    <title>E-learnig</title>
 </head>
 
 <body>
@@ -27,23 +27,24 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
+
                 <li class="nav-item dropdown  active">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Courses
                     </a>
                     <div class="dropdown-menu  active" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Web Development</a>
+                        <a class="dropdown-item" href="#course">Web Development</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Machine Learning</a>
+                        <a class="dropdown-item" href="#course">Machine Learning</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Devops Development</a>
+                        <a class="dropdown-item" href="#course">Devops Development</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Software Development</a>
+                        <a class="dropdown-item" href="#course">Software Development</a>
                     </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
                 </li>
                 <li class="nav-item  active">
                     <a class="nav-link" href="#">Contact Us</a>
@@ -77,23 +78,23 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-    <section class="py-5">
+    <section class="py-5" id="course">
         <div class="container">
             <h2 class="text-center">POPULAR COURSES</h2>
             <ul class="nav nav-pills my-3" id=" pills-tab justify-content-center" role="tablist">
-                <li class="nav-item text-center">
+                <li class="nav-item nav-item1 text-center">
                     <a class="nav-link active brds0" id="pills-webdev-tab" data-toggle="pill" href="#pills-webdev"
                         role="tab" aria-controls="pills-webdev" aria-selected="true">Web Development</a>
                 </li>
-                <li class="nav-item text-center">
+                <li class="nav-item nav-item1 text-center">
                     <a class="nav-link brds0" id="pills-ml-tab" data-toggle="pill" href="#pills-ml" role="tab"
                         aria-controls="pills-ml" aria-selected="false">Machine Learning</a>
                 </li>
-                <li class="nav-item text-center">
+                <li class="nav-item nav-item1 text-center">
                     <a class="nav-link brds0" id="pills-devops-tab" data-toggle="pill" href="#pills-devops" role="tab"
                         aria-controls="pills-devops" aria-selected="false">DevOps</a>
                 </li>
-                <li class="nav-item text-center">
+                <li class="nav-item nav-item1 text-center">
                     <a class="nav-link brds0" id="pills-software-tab" data-toggle="pill" href="#pills-software"
                         role="tab" aria-controls="pills-software" aria-selected="false">S/W Development</a>
                 </li>
@@ -102,7 +103,7 @@
                 <div class="tab-pane fade show active" id="pills-webdev" role="tabpanel"
                     aria-labelledby="pills-webdev-tab">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Web Development</div>
@@ -112,7 +113,7 @@
                                 <button class="btn btn-primary inline-block w-100">Register Now</button>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Mern Stack</div>
@@ -122,7 +123,7 @@
                                 <button class="btn btn-primary inline-block w-100">Register Now</button>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Mean Stack</div>
@@ -139,7 +140,7 @@
                 </div>
                 <div class="tab-pane fade" id="pills-ml" role="tabpanel" aria-labelledby="pills-ml-tab">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Machine Learining</div>
@@ -149,7 +150,7 @@
                                 <button class="btn btn-primary inline-block w-100">Register Now</button>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Artificial Intelligence</div>
@@ -163,7 +164,7 @@
                 </div>
                 <div class="tab-pane fade show " id="pills-devops" role="tabpanel" aria-labelledby="pills-devops-tab">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Devops Developer</div>
@@ -179,7 +180,7 @@
                 <div class="tab-pane fade show " id="pills-software" role="tabpanel"
                     aria-labelledby="pills-software-tab">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Java Developer</div>
@@ -189,7 +190,7 @@
                                 <button class="btn btn-primary inline-block w-100">Register Now</button>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 mb-3">
                             <div class="p-3 border">
                                 <img class="d-block w-100 brds15px" src="./images/2.webp" alt="Second slide">
                                 <div class="course-title">Python Developer</div>
@@ -207,13 +208,13 @@
     </section>
 
 
-    <div id="Testimonials" style="background-color: #f1f1f1;">
+    <div id="testimonials" style="background-color: #f1f1f1;">
         <div class="container py-5">
             <h2 class="text-center">STUDENT TESTIMONIALS</h2>
             <div class="owl-carousel owl-theme my-3">
-                <div class="item border p-3 text-center bg-white">
+                <div class="item border p-3 text-center bg-white  mb-3">
                     <figure class="m-auto">
-                        <img class="border" src="./images/1.jpg"
+                        <img class="border" src="./images/testimonial1.jpg"
                             style="width: 80px; height: 80px; border-radius: 100%; padding:5px;">
                         <p class="testimonial-name">Aman Kumar</p>
                         <span>Student of Computer Science</span>
@@ -221,31 +222,31 @@
                             adipisci aut quibusdam quo ex cum minima eligendi?</p>
                     </figure>
                 </div>
-                <div class="item border p-3 text-center  bg-white">
+                <div class="item border p-3 text-center  bg-white mb-3">
                     <figure class="m-auto">
-                        <img class="border" src="./images/1.jpg"
+                        <img class="border" src="./images/testimonial1.jpg"
                             style="width: 80px; height: 80px; border-radius: 100%; padding:5px;">
-                        <p class="testimonial-name">Aman Kumar</p>
+                        <p class="testimonial-name">Ankur Kumar</p>
                         <span>Student of Computer Science</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur quia nemo
                             adipisci aut quibusdam quo ex cum minima eligendi?</p>
                     </figure>
                 </div>
-                <div class="item border p-3 text-center  bg-white">
+                <div class="item border p-3 text-center  bg-white mb-3">
                     <figure class="m-auto">
-                        <img class="border" src="./images/1.jpg"
+                        <img class="border" src="./images/testimonial1.jpg"
                             style="width: 80px; height: 80px; border-radius: 100%; padding:5px;">
-                        <p class="testimonial-name">Aman Kumar</p>
+                        <p class="testimonial-name">Animesh Kumar</p>
                         <span>Student of Computer Science</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur quia nemo
                             adipisci aut quibusdam quo ex cum minima eligendi?</p>
                     </figure>
                 </div>
-                <div class="item border p-3 text-center">
+                <div class="item border p-3 text-center bg-white  mb-3">
                     <figure class="m-auto">
-                        <img class="border" src="./images/1.jpg"
+                        <img class="border" src="./images/testimonial1.jpg"
                             style="width: 80px; height: 80px; border-radius: 100%; padding:5px;">
-                        <p class="testimonial-name">Aman Kumar</p>
+                        <p class="testimonial-name">Amit Kumar</p>
                         <span>Student of Computer Science</span>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequuntur quia nemo
                             adipisci aut quibusdam quo ex cum minima eligendi?</p>
@@ -254,10 +255,28 @@
             </div>
         </div>
         </sectiion>
+        <div id="Newsletter" class=" bg-lightBlue p-5">
+            <div class="container ">
+                <h2 class="text-center">Newsletter</h2>
+                <p class="text-center">Give us your e-mail so we can give you 25% off next time you visit us.</p>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-sm-6" style="text-align: right;">
+                        <input type="text" class="form-control" placeholder="Your Email Address">
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="text-center m-auto ">
+
+                        <button class="btn btn-primary mt-3 btn-large">Subscribe</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <footer class="bg-dark py-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 text-white">
+                    <div class="col-md-3 text-white mb-3">
                         <h5>E-Learning</h5>
                         <span>Email:elearning@gmail.com</span><br />
                         <span>Mob. no.: 999 888 7777</span><br />
@@ -268,7 +287,7 @@
                             <i class="fa fa-instagram"></i>
                         </div>
                     </div>
-                    <div class="col-md-3 text-white">
+                    <div class="col-md-3 text-white mb-3">
                         <h5>Courses</h5>
                         <ul>
                             <li>All Courses</li>
@@ -277,7 +296,7 @@
                             <li>Devops Developer</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 text-white">
+                    <div class="col-md-3 text-white mb-3">
                         <h5>Quick Links</h5>
                         <ul>
                             <li>Blog</li>
@@ -286,7 +305,7 @@
                             <li>Course FAQ's</li>
                         </ul>
                     </div>
-                    <div class="col-md-3 text-white">
+                    <div class="col-md-3 text-white mb-3">
                         <h5>Newsletter</h5>
                         <input type="text" class="form-control" placeholder="Email Address">
                         <div class="mt-3">

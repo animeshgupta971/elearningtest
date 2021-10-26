@@ -7,13 +7,13 @@ button.owl-dot{outline: none;}
 .testimonial-name{font-size: 18px; font-weight: 600;}
 .listStyle{list-style: none!important;}
 .lightgrey{background-color: #d83232;}
-
+.bg-lightBlue {background:#f7ffd7;}
 @media(max-width:991px){      
     .carousel-item img{height: auto!important;}
 }
 
 @media(max-width:767px){   
     .brds0{border-radius: 0px!important;}
-    li.nav-item{width: 50%;border:1px solid #e9ecef;}
+    li.nav-item1{width: 50%;border:1px solid #e9ecef;}
     
 }
