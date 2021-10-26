@@ -8,6 +8,9 @@ button.owl-dot{outline: none;}
 .listStyle{list-style: none!important;}
 .lightgrey{background-color: #d83232;}
 .bg-lightBlue {background:#f7ffd7;}
+@media(max-width:1024px){
+    .carousel-item img{height: auto!important;}
+}
 @media(max-width:991px){      
     .carousel-item img{height: auto!important;}
 }
